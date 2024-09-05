@@ -27,9 +27,14 @@
       justify-content: space-between;
       padding: 20px;  
     }
-    img {
-      border-radius: 100%;
-      /* size: 20%; */
+    .image img {
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      display: block;
+      margin:  auto;
+      /* size: 20%;    */
+      /* object-fit: fill; */
     }
     
     .bot {
@@ -57,7 +62,7 @@
     }
     .button:hover {
       background: #f6e05e;
-      box-shadow: 0 0 5px #b4aa6d, 0 0 25px #958f69, 0 0 50px #b4aa6d, 0 0 200px #b4aa6d;
+      box-shadow: 0 0 5px #958f69, 0 0 25px #958f69, 0 0 50px #958f69, 0 0 200px #958f69;
       color: #333;
     }
     /* .button:hover {
