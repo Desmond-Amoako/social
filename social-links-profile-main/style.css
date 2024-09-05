@@ -1,0 +1,53 @@
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    /* .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); } */
+
+    .boss {
+      border: 1px solid black;
+      padding: 10%;
+      align-items: center;
+    }
+    .small-container {
+      border: 1px solid blue;
+      color: #fff;
+      font-weight: bold;
+      background: #343434;
+      width: 30%;
+      border-radius: 5%;
+      height: 90vh;
+      margin: auto;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      /* padding: 30px 30px 30px 30px; */
+      padding: 20px;  
+    }
+    img {
+      border-radius: 100%;
+      /* size: 20%; */
+    }
+    
+    .bot {
+      gap: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .button {
+      border: 1px solid black;
+      border-radius: 10px;  
+      padding: 10px;
+      background: #525151;
+      cursor: pointer;
+    }
+    .button:hover {
+      size: 20px;
+      background-color: #525151 ;
+      box-sizing: border-box;
+    }
+
